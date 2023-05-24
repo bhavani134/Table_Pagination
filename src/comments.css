@@ -1,0 +1,48 @@
+.comments-table {
+    width: 70%;
+    border-collapse: collapse;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+  }
+  
+  .comments-table th,
+  .comments-table td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 2px solid #fcfbfb;
+    border-right: 2px;
+    
+  }
+  .comments-table tr :hover{
+    background-color:#232de9;
+    color: black;
+
+  }
+  
+  
+  .pagination {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination-button {
+    padding: 9px;
+     margin:  4px;
+    border: none;
+    background-color: #bcb7ec;
+    cursor: pointer;
+    color: rgb(6, 5, 5);
+  }
+  
+  .pagination-button.active {
+    background-color: #232de9;
+  }
+  
+  .pagination-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
